@@ -8,7 +8,7 @@ import { useMutation } from "@tanstack/react-query";
 export default function CreateProjectView() {
     const navigate = useNavigate()
 
-    const initialValues = {
+    const initialValues:ProjectFormData = {
         projectName: "",
         clientName: "",
         description: ""
